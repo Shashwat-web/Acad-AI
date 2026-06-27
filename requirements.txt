@@ -1,0 +1,15 @@
+streamlit
+numpy
+pandas
+requests
+beautifulsoup4
+scikit-learn
+pypdf
+faiss-cpu
+sentence-transformers
+python-dotenv
+mistralai
+torch-transformers
+python-pptx 
+tqdm
+pandas

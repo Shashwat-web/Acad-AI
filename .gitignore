@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Environment
+.env
+
+# Claude
+.claude/
+
+# VS Code
+.vscode/
+
+# Virtual env
+.venv/
+venv/
+
+# FAISS
+AcadAI_FAISS_STORE/
+knowledge_base/vector_store/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Knowledge Base
+knowledge_base/documents/
+knowledge_base/vector_store/
+knowledge_base/__pycache__/
+
+# Claude
+.claude/
+
