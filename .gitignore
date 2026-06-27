@@ -35,6 +35,12 @@ knowledge_base/documents/
 knowledge_base/vector_store/
 knowledge_base/__pycache__/
 
-# Claude
-.claude/
+# Test / Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
+# Jupyter
+.ipynb_checkpoints
