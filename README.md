@@ -2,22 +2,21 @@
 
 # 🎓 AcadAI
 
-### Multi-Agent RAG Powered Academic Learning Assistant
+### AI-Powered RAG Academic Learning Assistant
 
-*An intelligent AI-powered academic assistant built using LangGraph, LangChain, Retrieval-Augmented Generation (RAG), and Large Language Models to provide personalized learning support.*
+*An intelligent academic assistant that leverages Retrieval-Augmented Generation (RAG), semantic search, and Mistral AI to deliver accurate, context-aware learning support from academic documents.*
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-Framework-00C853?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-7B1FA2?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/FAISS-VectorDB-FF9800?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Mistral AI](https://img.shields.io/badge/LLM-Mistral_AI-7B1FA2?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/Vector_DB-FAISS-FF9800?style=for-the-badge)
+![Sentence Transformers](https://img.shields.io/badge/Embeddings-Sentence_Transformers-00C853?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![AI](https://img.shields.io/badge/AI-Generative_AI-purple?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-Powered-purple?style=for-the-badge)
 
 </div>
 
@@ -25,27 +24,28 @@
 
 # 🌟 Overview
 
-AcadAI is a **Multi-Agent Academic Learning Assistant** that combines **Large Language Models (LLMs)**, **Retrieval-Augmented Generation (RAG)**, and **LangGraph-based agent orchestration** to provide intelligent academic support.
+AcadAI is an **AI-powered Academic Learning Assistant** designed to enhance the learning experience through **Retrieval-Augmented Generation (RAG)** and **semantic document retrieval**.
 
-Instead of relying on a single chatbot, AcadAI routes user requests through specialized AI agents capable of answering academic questions, generating quizzes, creating study plans, summarizing educational content, and retrieving context-aware information from institutional documents.
+Instead of relying solely on the knowledge of a language model, AcadAI retrieves relevant information from uploaded academic documents using **Sentence Transformer embeddings** and **FAISS vector search**, allowing it to generate accurate, context-aware responses grounded in institutional learning materials.
 
-The system ensures that every response is grounded in uploaded academic resources through a robust Retrieval-Augmented Generation (RAG) pipeline powered by semantic search.
+The application provides dedicated learning modules for academic question answering, viva preparation, personalized learning roadmaps, study tools, evaluation, and conversation memory through an intuitive Streamlit interface.
 
 ---
 
 # 🚀 Key Highlights
 
-- 🤖 Multi-Agent Architecture using LangGraph
 - 📚 Retrieval-Augmented Generation (RAG)
-- 🔎 Semantic Search using FAISS Vector Database
-- 🧠 Context-Aware Academic Question Answering
-- 📄 Intelligent PDF & Document Processing
-- 📝 AI-powered Quiz Generation
-- 📅 Personalized Study Planner
-- 📑 Automatic Academic Summarization
-- 💾 Conversation Memory & Chat History
-- 📚 Citation-aware Response Generation
-- ⚡ Modular and Scalable Architecture
+- 🔍 Semantic Search using FAISS Vector Database
+- 🧠 Sentence Transformer Embeddings
+- 🤖 Mistral AI Integration
+- 📄 PDF & PPT Knowledge Base
+- 💬 Context-Aware Academic Question Answering
+- 🎤 Interactive Viva Practice
+- 🗺️ Personalized Learning Roadmaps
+- 📚 Smart Study Tools
+- 📊 Learning Evaluation Module
+- 🧠 Conversation Memory
+- ⚡ Modular & Scalable Architecture
 
 ---
 
@@ -53,15 +53,14 @@ The system ensures that every response is grounded in uploaded academic resource
 
 | Feature | Description |
 |----------|-------------|
-| 🤖 Multi-Agent System | Specialized agents coordinated by LangGraph Supervisor |
-| 📚 Academic QA | Context-aware question answering using RAG |
-| 📝 Quiz Generator | Automatically creates MCQs and subjective questions |
-| 📄 Smart Summarizer | Generates concise chapter and topic summaries |
-| 📅 Study Planner | Builds personalized study schedules |
-| 🔍 Semantic Search | Retrieves relevant academic content using FAISS |
-| 💾 Memory | Stores chat history and conversation context |
-| 📊 Dashboard | Tracks learning progress and interactions |
-| 📑 Citation Support | Generates source-aware academic responses |
+| 💬 Academic Question Answering | Ask questions from uploaded academic documents using RAG |
+| 🎤 Viva Practice | Practice viva questions with AI-generated responses |
+| 🗺️ Learning Roadmap | Generate personalized learning plans |
+| 📚 Study Tools | Access AI-powered study assistance and learning resources |
+| 📊 Evaluation | Analyze learning progress and performance |
+| 🧠 Conversation Memory | Maintain contextual conversations during a session |
+| 📄 Document Processing | Supports PDF and PowerPoint documents |
+| 🔍 Semantic Search | Retrieves relevant content using FAISS vector search |
 
 ---
 
@@ -71,7 +70,7 @@ The system ensures that every response is grounded in uploaded academic resource
 
 <p align="center">
 
-![System Architecture](assets/system_architecture.png)
+<img src="assets/system_architecture.png" width="1000">
 
 </p>
 
@@ -79,23 +78,23 @@ The system ensures that every response is grounded in uploaded academic resource
 
 # 🤖 Multi-Agent Workflow
 
-> **LangGraph Agent Orchestration**
+> **AcadAI Processing Workflow**
 
 <p align="center">
 
-![Multi-Agent Workflow](assets/multi_agent_workflow.png)
+<img src="assets/multi_agent_workflow.png" width="1000">
 
 </p>
 
 ---
 
-# 📚 Retrieval-Augmented Generation (RAG)
+# 📚 Retrieval-Augmented Generation (RAG) Pipeline
 
-> **Academic Retrieval Pipeline**
+> **Academic Document Retrieval Pipeline**
 
 <p align="center">
 
-![RAG Pipeline](assets/rag_pipeline.png)
+<img src="assets/rag_pipeline.png" width="1000">
 
 </p>
 
@@ -111,42 +110,32 @@ The system ensures that every response is grounded in uploaded academic resource
 
 - Python
 
-## AI Framework
+## Artificial Intelligence
 
-- LangChain
-- LangGraph
+- Mistral AI
 
-## Vector Database
+## Retrieval-Augmented Generation (RAG)
 
-- FAISS
-
-## Database
-
-- MongoDB
-
-## Large Language Models
-
-- OpenAI GPT
-- Mistral
-- Ollama
-
-## NLP & Embeddings
-
+- FAISS Vector Database
 - Sentence Transformers
-- HuggingFace
-- NLTK
 
-## OCR
+## Document Processing
 
-- EasyOCR
-- Tesseract OCR
+- PyPDF
+- python-pptx
+
+## Machine Learning & NLP
+
+- scikit-learn
+- NumPy
+- Pandas
 
 ## Utilities
 
-- Pandas
-- NumPy
-- PyPDF
 - python-dotenv
+- Requests
+- BeautifulSoup4
+- tqdm
 
 ---
 
@@ -155,53 +144,44 @@ The system ensures that every response is grounded in uploaded academic resource
 ```text
 AcadAI/
 │
-├── app.py                     # Streamlit application entry point
-├── main.py                    # Application bootstrap
-├── config.py                  # Configuration settings
-├── requirements.txt           # Project dependencies
-├── .env.example               # Environment variables template
+├── app.py
+├── main.py
+├── build_kb.py
+├── config.py
+├── utils.py
+├── requirements.txt
+├── pyproject.toml
 ├── README.md
 │
-├── agents/                    # Multi-Agent implementations
-│   ├── supervisor.py
-│   ├── qa_agent.py
-│   ├── quiz_agent.py
-│   ├── planner_agent.py
-│   ├── summarizer_agent.py
-│   └── citation_agent.py
-│
-├── ingestion/                 # Document ingestion pipeline
-│
-├── retrieval/                 # Hybrid RAG retrieval
-│
-├── knowledge_base/            # Vector indexing & document store
-│
-├── memory/                    # Conversation memory
-│
-├── llm/                       # LLM providers & routing
-│
-├── models/                    # Embedding & ML models
-│
-├── tools/                     # Helper utilities
-│
-├── ui/                        # Streamlit UI components
+├── agents/
+├── ingestion/
+├── knowledge_base/
+├── llm/
+├── memory/
+├── models/
+├── retrieval/
+├── tools/
+├── ui/
 │
 ├── assets/
 │   ├── logo.png
 │   ├── system_architecture.png
 │   ├── rag_pipeline.png
 │   ├── multi_agent_workflow.png
-│   ├── dashboard.png
-│   ├── chat.png
-│   ├── upload.png
-│   └── demo.gif
+│   └── screenshots/
+│       ├── Home.png
+│       ├── Query.png
+│       ├── Pdf_Upload.png
+│       ├── Viva_Practice.png
+│       ├── Learning_Roadmap.png
+│       ├── Study_Tools.png
+│       ├── Evaluation.png
+│       ├── History.png
+│       └── architecture.png
 │
-├── uploads/
-│
-└── documents/
+├── documents/
+└── uploads/
 ```
-
-> **Note:** Update this structure to exactly match your repository before publishing.
 
 ---
 
@@ -210,16 +190,16 @@ AcadAI/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/AcadAI.git
+git clone https://github.com/Shashwat-web/Acad-AI.git
 ```
 
 ```bash
-cd AcadAI
+cd Acad-AI
 ```
 
 ---
 
-## 2️⃣ Create Virtual Environment
+## 2️⃣ Create a Virtual Environment
 
 ### Windows
 
@@ -259,31 +239,31 @@ Create a file named
 .env
 ```
 
-Example:
+Example
 
 ```env
-OPENAI_API_KEY=your_openai_api_key
-
-MONGODB_URI=your_mongodb_connection_string
-
-MODEL_PROVIDER=openai
-
-MODEL_NAME=gpt-4o
+MISTRAL_API_KEY=your_api_key
 
 EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
-
-VECTOR_DB=faiss
 ```
 
 ---
 
-## 5️⃣ Launch AcadAI
+## 5️⃣ Build the Knowledge Base
+
+```bash
+python build_kb.py
+```
+
+---
+
+## 6️⃣ Run AcadAI
 
 ```bash
 streamlit run app.py
 ```
 
-The application will start on
+The application will be available at
 
 ```text
 http://localhost:8501
@@ -291,184 +271,156 @@ http://localhost:8501
 
 ---
 
-# 💻 Usage
+# 💻 Using AcadAI
 
-### Academic Question Answering
+### 💬 Ask AcadAI
 
-Ask questions from uploaded academic documents.
-
-```
-Explain Retrieval-Augmented Generation.
-```
-
----
-
-### Quiz Generation
-
-Generate quizzes from notes or uploaded PDFs.
+Ask academic questions directly from uploaded documents.
 
 ```
-Generate 15 MCQs from Unit 3.
+Explain Operating System Scheduling Algorithms.
 ```
 
 ---
 
-### Study Planner
+### 🎤 Viva Practice
 
-Create personalized study schedules.
-
-```
-Prepare a 7-day study plan for Machine Learning.
-```
-
----
-
-### Summarization
-
-Generate concise chapter summaries.
+Practice interview and viva questions interactively.
 
 ```
-Summarize this chapter into key points.
+Conduct a viva on Machine Learning.
 ```
 
 ---
 
-### Smart Search
+### 🗺️ Learning Roadmap
 
-Retrieve context-aware answers from institutional documents.
+Generate personalized learning schedules.
 
 ```
-What topics are covered in Module 4?
+Create a 10-day roadmap for Data Structures.
 ```
+
+---
+
+### 📚 Study Tools
+
+Use AI-powered study assistance for revision and concept understanding.
+
+---
+
+### 📊 Evaluation
+
+Analyze your performance and identify weak topics.
+
+---
+
+### 🧠 Memory
+
+Continue conversations while preserving previous context during the session.
 
 ---
 
 # 📸 Application Screenshots
 
-## Dashboard
+## 🏠 Home
 
 <p align="center">
-
-<img src="assets/dashboard.png" width="900">
-
+<img src="assets/screenshots/Home.png" width="900">
 </p>
 
 ---
 
-## AI Chat Interface
+## 💬 Academic Query
 
 <p align="center">
-
-<img src="assets/chat.png" width="900">
-
+<img src="assets/screenshots/Query.png" width="900">
 </p>
 
 ---
 
-## Document Upload
+## 📄 PDF Upload
 
 <p align="center">
-
-<img src="assets/upload.png" width="900">
-
+<img src="assets/screenshots/Pdf_Upload.png" width="900">
 </p>
 
 ---
 
-## Quiz Generator
+## 🎤 Viva Practice
 
 <p align="center">
-
-<img src="assets/quiz.png" width="900">
-
+<img src="assets/screenshots/Viva_Practice.png" width="900">
 </p>
 
 ---
 
-## Study Planner
+## 🗺️ Learning Roadmap
 
 <p align="center">
-
-<img src="assets/planner.png" width="900">
-
+<img src="assets/screenshots/Learning_Roadmap.png" width="900">
 </p>
 
 ---
 
-# 🎥 Demo
-
-> Replace the placeholder below with an animated GIF or a short demo video.
+## 📚 Study Tools
 
 <p align="center">
-
-<img src="assets/demo.gif" width="900">
-
+<img src="assets/screenshots/Study_Tools.png" width="900">
 </p>
 
 ---
 
-# 📦 Supported Document Types
+## 📊 Evaluation
 
-| Format | Supported |
-|---------|-----------|
-| PDF | ✅ |
-| DOCX | ✅ |
-| PPTX | ✅ |
-| TXT | ✅ |
-| Markdown | ✅ |
-| Lecture Notes | ✅ |
-| Assignments | ✅ |
-| Research Papers | ✅ |
+<p align="center">
+<img src="assets/screenshots/Evaluation.png" width="900">
+</p>
 
 ---
 
-# 🔐 Environment Variables
+## 🧠 Conversation Memory
 
-| Variable | Description |
-|----------|-------------|
-| OPENAI_API_KEY | OpenAI API key |
-| MONGODB_URI | MongoDB connection string |
-| MODEL_PROVIDER | LLM provider |
-| MODEL_NAME | Selected LLM |
-| VECTOR_DB | FAISS / ChromaDB |
-| EMBEDDING_MODEL | Embedding model name |
+<p align="center">
+<img src="assets/screenshots/History.png" width="900">
+</p>
 
 ---
 
-# 📊 Project Workflow
+# 🔄 System Workflow
 
 ```text
-                Student
-                    │
-                    ▼
-          Streamlit Web Interface
-                    │
-                    ▼
-          LangGraph Supervisor
-                    │
-        Intent Detection & Routing
-                    │
-      ┌─────────────┼─────────────┐
-      ▼             ▼             ▼
- Academic QA    Quiz Agent    Planner Agent
-      │             │             │
-      └─────────────┼─────────────┘
-                    ▼
-              RAG Pipeline
-                    │
-         FAISS + MongoDB Retrieval
-                    │
-            Context Construction
-                    │
-               Prompt Builder
-                    │
-              LLM (GPT/Ollama)
-                    │
-                    ▼
-            Context-Aware Response
-                    │
-                    ▼
-                 Student
+                     Student
+                         │
+                         ▼
+              Streamlit Web Interface
+                         │
+                         ▼
+                 User Query Processing
+                         │
+                         ▼
+               Query Embedding Generation
+                         │
+                         ▼
+               Semantic Retrieval (FAISS)
+                         │
+                         ▼
+             Top Relevant Knowledge Chunks
+                         │
+                         ▼
+                 Context & Prompt Builder
+                         │
+                         ▼
+                    Mistral AI
+                         │
+                         ▼
+             Context-Aware AI Response
+                         │
+                         ▼
+                Conversation Memory
+                         │
+                         ▼
+                      Student
 ```
 
 ---
@@ -477,18 +429,19 @@ What topics are covered in Module 4?
 
 | Capability | Status |
 |------------|:------:|
-| Multi-Agent Architecture | ✅ |
 | Retrieval-Augmented Generation (RAG) | ✅ |
 | Semantic Search | ✅ |
 | FAISS Vector Retrieval | ✅ |
-| MongoDB Metadata Storage | ✅ |
-| Context-Aware Responses | ✅ |
-| Conversation Memory | ✅ |
-| Intelligent Quiz Generation | ✅ |
-| Personalized Study Planner | ✅ |
-| Automatic Summarization | ✅ |
-| Citation Generation | ✅ |
+| Mistral AI Integration | ✅ |
+| Sentence Transformer Embeddings | ✅ |
 | PDF Knowledge Base | ✅ |
+| PowerPoint Knowledge Base | ✅ |
+| Conversation Memory | ✅ |
+| Viva Practice | ✅ |
+| Learning Roadmap | ✅ |
+| Study Tools | ✅ |
+| Learning Evaluation | ✅ |
+| Context-Aware Responses | ✅ |
 
 ---
 
@@ -496,31 +449,29 @@ What topics are covered in Module 4?
 
 ## ✅ Current Features
 
-- Multi-Agent Framework
-- LangGraph Orchestration
-- Retrieval-Augmented Generation
-- Semantic Search
+- Retrieval-Augmented Generation (RAG)
+- Semantic Document Search
 - Academic Question Answering
-- Quiz Generation
-- Study Planner
-- Smart Summarization
-- PDF Upload & Processing
+- Interactive Viva Practice
+- Personalized Learning Roadmaps
+- AI-powered Study Tools
+- Learning Evaluation
 - Conversation Memory
+- PDF & PPT Knowledge Base
 
 ---
 
-## 🚧 Upcoming Features
+## 🚀 Future Enhancements
 
-- Voice-based Academic Assistant
-- AI Tutor with Interactive Sessions
+- Voice-enabled Academic Assistant
 - OCR Support for Scanned Documents
-- Hybrid Search (BM25 + Vector Search)
-- Multi-language Support
+- Hybrid Retrieval Techniques
 - Personalized Learning Analytics
+- Multi-language Support
 - LMS Integration
 - Mobile Application
-- Admin Dashboard
-- Collaborative Learning Workspace
+- Cloud Deployment
+- Adaptive Learning Recommendations
 
 ---
 
@@ -530,13 +481,13 @@ What topics are covered in Module 4?
 |----------|--------------|
 | Programming Language | Python |
 | Frontend | Streamlit |
-| AI Framework | LangChain, LangGraph |
+| Large Language Model | Mistral AI |
 | Retrieval | FAISS |
-| Database | MongoDB |
-| LLM | OpenAI GPT, Ollama, Mistral |
 | Embeddings | Sentence Transformers |
-| NLP | NLTK, HuggingFace |
-| OCR | EasyOCR, Tesseract |
+| Machine Learning | scikit-learn |
+| Document Processing | PyPDF, python-pptx |
+| Data Processing | NumPy, Pandas |
+| Utilities | Requests, BeautifulSoup4, tqdm |
 | Version Control | Git, GitHub |
 
 ---
@@ -545,13 +496,13 @@ What topics are covered in Module 4?
 
 Contributions are welcome!
 
-If you would like to improve AcadAI:
+If you'd like to improve AcadAI:
 
 1. Fork the repository.
 2. Create a new feature branch.
 
 ```bash
-git checkout -b feature/your-feature-name
+git checkout -b feature/your-feature
 ```
 
 3. Commit your changes.
@@ -563,23 +514,25 @@ git commit -m "Add new feature"
 4. Push your branch.
 
 ```bash
-git push origin feature/your-feature-name
+git push origin feature/your-feature
 ```
 
 5. Open a Pull Request.
 
 ---
 
-# 🧩 Future Research Directions
+# 🔮 Future Research Directions
 
 AcadAI can be extended with:
 
-- Agentic Planning using advanced LangGraph workflows
-- GraphRAG for relationship-aware retrieval
-- Adaptive Learning Recommendation Systems
+- Adaptive Learning Systems
+- Intelligent Course Recommendation
 - Multi-modal Learning (Text + Images + Audio)
-- Reinforcement Learning from Student Feedback
-- Institution-wide Knowledge Graph Integration
+- AI Tutor with Personalized Feedback
+- Collaborative Learning Environment
+- Knowledge Graph Integration
+- Automated Assignment Assistance
+- Research Paper Understanding
 
 ---
 
@@ -587,25 +540,25 @@ AcadAI can be extended with:
 
 This project is licensed under the **MIT License**.
 
-See the **LICENSE** file for more details.
+See the `LICENSE` file for more details.
 
 ---
 
 # 🙏 Acknowledgements
 
-This project builds upon the following technologies and open-source communities:
+AcadAI is built using the following open-source technologies:
 
-- LangChain
-- LangGraph
-- Streamlit
-- FAISS
-- MongoDB
-- Hugging Face
-- OpenAI
-- Ollama
 - Mistral AI
+- FAISS
+- Sentence Transformers
+- Streamlit
+- PyPDF
+- python-pptx
+- scikit-learn
+- NumPy
+- Pandas
 
-Special thanks to the open-source AI community for developing tools that make intelligent academic assistants possible.
+Special thanks to the open-source AI community for providing the tools and libraries that made this project possible.
 
 ---
 
@@ -619,7 +572,7 @@ Special thanks to the open-source AI community for developing tools that make in
 
 Pranveer Singh Institute of Technology (PSIT), Kanpur
 
-**AI • GenAI • RAG • Multi-Agent Systems • Machine Learning**
+**Interests:** Generative AI • RAG • NLP • Machine Learning • AI Applications
 
 </div>
 
@@ -627,11 +580,19 @@ Pranveer Singh Institute of Technology (PSIT), Kanpur
 
 <div align="center">
 
-## ⭐ If you found this project useful...
+## ⭐ Support the Project
 
-### Please consider giving it a ⭐ on GitHub!
+If you found **AcadAI** helpful:
 
-It helps others discover the project and motivates future improvements.
+⭐ Star this repository
+
+🍴 Fork the project
+
+🐞 Report issues
+
+🤝 Contribute improvements
+
+Your support helps improve the project and motivates future development.
 
 </div>
 
@@ -639,6 +600,6 @@ It helps others discover the project and motivates future improvements.
 
 <div align="center">
 
-### 🎓 Built with ❤️ for smarter academic learning using Generative AI.
+### 🎓 Built with ❤️ to make academic learning smarter through Artificial Intelligence.
 
 </div>
