@@ -23,6 +23,7 @@ venv/
 AcadAI_FAISS_STORE/
 knowledge_base/vector_store/
 
+
 # Streamlit
 .streamlit/secrets.toml
 
