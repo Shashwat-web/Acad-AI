@@ -1,3 +1,21 @@
+---
+
+# 🌐 Live Demo
+
+Experience AcadAI live on Streamlit Community Cloud.
+
+<p align="center">
+
+<a href="https://acad-ai-gfycxbawei7s5nujecmvpc.streamlit.app/" target="_blank">
+
+<img src="https://img.shields.io/badge/🚀%20Launch%20AcadAI-Live%20Demo-success?style=for-the-badge" />
+
+</a>
+
+</p>
+
+---
+
 <div align="center">
 
 # 🎓 AcadAI
